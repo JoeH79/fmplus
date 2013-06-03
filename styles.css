@@ -1,0 +1,92 @@
+*
+{
+    font-family: 'Numans', Arial, sans-serif;
+}
+
+#container
+{
+	margin: auto;
+	/*position: absolute;
+	left: 100px; */
+}
+
+#header
+{
+	height:30px;
+	background-color: grey;
+	font-family: Arial, sans-serif;
+}
+
+#logged-in-as
+{
+	font-size: 20px;
+    padding: 10px;
+}
+
+#login
+{
+    padding: 10px;
+}
+
+#logout
+{
+	font-size: 20px;
+}
+#header-right span
+{
+    border-width: 100px;
+}
+
+#header-right
+{
+	float: right;
+}
+#header-left
+{
+	float: left;
+}
+
+.table-row
+{
+	background-color: #C8FFFF;
+}
+
+table
+{
+	border-spacing: 0 5px;
+}
+
+#menu
+{
+    text-align: center;
+    margin: auto;
+}
+
+.menu-item
+{
+    list-style: none;
+    display: inline;
+}
+
+.menu-item-bottom
+{
+    list-style: none;
+    display: inline;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#bottom
+{
+    text-align: center;
+}
+
+#bottom ul
+{
+    display: inline;]
+    list-style: none;
+    margin: auto;
+}
