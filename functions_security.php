@@ -39,7 +39,10 @@ function get_current_session_account()
 {
 	if(session_id()){
 		return $_SESSION['accountid'];
-	}
+	} else
+    {
+        return false;
+    }
 }
 
 function user_exists($username)
@@ -61,7 +64,11 @@ function get_user_salt($username)
 	if ($rows == 1)
 	{
 		return mysql_result($result, 0, 'user_salt');
-	}
+	} else
+    {
+        return false;
+    }
+
 }
 
 function get_user_account_id($username)

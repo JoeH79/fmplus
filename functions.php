@@ -51,11 +51,11 @@ function display_table_body ($result, $edit, $del, $edit_target, $del_target)
 		}
         if ($edit === 1 )
         {
-            echo '<td class="table-data-element"><form method="POST" action='.$edit_target.'><input type="submit" name ="edit" value="Edit"/><input type="hidden" name="edit_value" value="'.$row[0].'"/></form></td>';
+            echo '<td class="table-data-element"><form method="POST" action='.$edit_target.'><input class="edit-button" type="submit" name ="edit" value="Edit"/><input type="hidden" name="edit_value" value="'.$row[0].'"/></form></td>';
         }
         if ($del === 1 )
         {
-            echo '<td class="table-data-element"><form method="POST" action='.$del_target.'><input type="submit" name ="delete" value="Del"/><input type="hidden" value="'.$row[0].'"/></form></td>';
+            echo '<td class="table-data-element"><form method="POST" action='.$del_target.'><input class="del-button" type="submit" name ="delete" value="Del"/><input type="hidden" value="'.$row[0].'"/></form></td>';
         }
 		echo "</tr>";
 	}		

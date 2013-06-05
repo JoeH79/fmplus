@@ -1,8 +1,13 @@
-*
+body
 {
     font-family: 'Numans', Arial, sans-serif;
+    color: #05326D;
+    background-color: #eeeeee;
 }
+a {
+    text-decoration: none;
 
+}
 #container
 {
 	margin: auto;
@@ -13,10 +18,15 @@
 #header
 {
 	height:30px;
-	background-color: grey;
+	background-color: #0772A1;
 	font-family: Arial, sans-serif;
 }
 
+#logo
+{
+    background-color: #eeeeee;
+
+}
 #logged-in-as
 {
 	font-size: 20px;
@@ -48,7 +58,29 @@
 
 .table-row
 {
-	background-color: #C8FFFF;
+	background-color: #63AFD0;
+}
+
+.edit-button
+{
+    color: #05326D;
+    background-color: #eeeeee;
+    font-family: 'Numans', Arial, sans-serif;
+    border-radius: 5px;
+    margin: 0;
+    border: 0;
+
+}
+
+.del-button
+{
+    color: #05326D;
+    background-color: #eeeeee;
+    font-family: 'Numans', Arial, sans-serif;
+    border-radius: 5px;
+    margin: 0;
+    border: 0;
+
 }
 
 table
@@ -66,8 +98,15 @@ table
 {
     list-style: none;
     display: inline;
-}
+    background-color: #3BA3D0;
+    border-radius: 5px;
+    padding: 10px;
+    color: #eeeeee;
 
+}
+.menu-item a:visited {
+    color: #eeeeee;
+}
 .menu-item-bottom
 {
     list-style: none;
