@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>FM Plus - Create new person</title>
+		<title>FM Plus | Create new person</title>
 		<link rel='stylesheet' type='text/css' href='styles.css' />
         <link href='http://fonts.googleapis.com/css?family=Numans' rel='stylesheet' type='text/css'>
 	</head>
