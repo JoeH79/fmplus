@@ -6,7 +6,6 @@
         <link href='http://fonts.googleapis.com/css?family=Numans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<h1>Create new person</h1>
 		<?php 
 			require_once 'functions_dbconnect.php';
 			require_once 'functions.php';
